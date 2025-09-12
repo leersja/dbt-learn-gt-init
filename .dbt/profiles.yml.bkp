@@ -1,0 +1,12 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 16
+      account: LX41950
+      user: leersja
+      database: analytics
+      warehouse: analytics
+      schema: raw
+      password: ays8.hj2kmx9TV3

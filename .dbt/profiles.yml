@@ -1,0 +1,13 @@
+default:
+  target: dev
+  outputs:
+    dev:
+      type: snowflake
+      threads: 16
+      authenticator: username_password_mfa
+      account: GXFMRLJ-LX41950
+      user: leersja
+      database: analytics
+      warehouse: transforming
+      schema: raw
+      password: ays8.hj2kmx9TV3
